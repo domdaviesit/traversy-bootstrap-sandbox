@@ -92,7 +92,7 @@
     <h2>Heading Two</h2>
     <h3>Heading Three</h3>
     <h4>Heading Four</h4>
-    <h5>Heading Five</h5>
+    <h5 class="h1">Heading Five- now looks like h1. not really sure when it's needed as they h tags are already styled.</h5>
     <h6>Heading Six</h6>
 
     <br>
@@ -100,10 +100,11 @@
 
 
     <!-- DISPLAY CLASSES -->
-    <h1>Display 1</h1>
-    <h1>Display 2</h1>
-    <h1>Display 3</h1>
-    <h1>Display 4</h1>
+    <h1 class="display-1">Display 1</h1>
+    <p>To make heading more prominent. just add display-1 class. Great for showcase/jumbotron. display-1 is 6rem!</p>
+    <h1 class="display-2">Display 2</h1>
+    <h1 class="display-3">Display 3</h1>
+    <h1 class="display-4">Display 4</h1>
 
     <br>
     <br>
@@ -113,39 +114,41 @@
       voluptatem quam ab expedita eum, ipsam? Necessitatibus dicta quaerat, vitae dolorum, dolor autem reiciendis sapiente.</p>
 
     <!-- LEAD -->
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore repellendus veniam consequatur vero numquam
-      voluptatem quam ab expedita eum, ipsam? Necessitatibus dicta quaerat, vitae dolorum, dolor autem reiciendis sapiente.</p>
+    <h3>Lead class to paragraph</h3>
+    <p class="lead"> Increases font weight and size is now 1.25rem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore
+      repellendus veniam consequatur vero numquam voluptatem quam ab expedita eum, ipsam? Necessitatibus dicta quaerat, vitae
+      dolorum, dolor autem reiciendis sapiente.</p>
 
     <!-- MONOSPACE PARAGRAPH -->
-    <p>My monospace paragraph</p>
+    <p class="text-monospace">My monospace paragraph. add text-monospace</p>
 
     <!-- STYLE CLASSES -->
-    <p>Bold Text</p>
+    <p class="font-weight-bold">Bold Text - add font-weight-bold</p>
     <p>Normal Text</p>
-    <p>Italic Text</p>
+    <p class="font-italic">Italic Text- add font-italic</p>
 
     <!-- TEXT TRANSFORMS -->
-    <p>MAKE LOWERCASE</p>
-    <p>make uppercase</p>
-    <p>make capitalized</p>
+    <p class="text-lowercase">MAKE LOWERCASE - text-lowercase</p>
+    <p class="text-uppercase">make uppercase - text-uppercase</p>
+    <p class="text-capitalize">make capitalized - text-capitalize</p>
 
     <br>
     <br>
 
     <!-- BLOCKQUOTES -->
-    <blockquote>
-      <p>This is a blockquote</p>
+    <blockquote class="blockquote">
+      <p>This is a blockquote. add class blockquote</p>
     </blockquote>
 
     <!-- BLOCKQUOTE RIGHT ALIGNED -->
-    <blockquote>
-      <p>This is a blockquote aligned right</p>
+    <blockquote class=" blockquote text-right">
+      <p>This is a blockquote aligned right. blockquote text-right</p>
     </blockquote>
 
     <!-- BLOCKQUOTE WITH FOOTER -->
-    <blockquote>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer>Someone famous in
+    <blockquote class=" blockquote text-right">
+      <p>Just add footer and cite tags. Then add blockquote-footer class to footer tag.</p>
+      <footer class="blockquote-footer">Someone famous in
         <cite title="Source Title">Source Title</cite>
       </footer>
     </blockquote>
@@ -154,28 +157,28 @@
     <br>
 
     <!-- TEXT TRUNCATE -->
-    <div>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellat nobis sunt qui consequatur architecto veritatis,
-      iure odit, debitis pariatur perspiciatis? Asperiores facere veniam, totam ullam dignissimos voluptate atque! Eos, animi
-      quos. Sint magni nulla provident et consequatur officia tempora!
+    <div class="text-truncate">
+      Added text-truncate to the div. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellat nobis sunt qui
+      consequatur architecto veritatis, iure odit, debitis pariatur perspiciatis? Asperiores facere veniam, totam ullam dignissimos
+      voluptate atque! Eos, animi quos. Sint magni nulla provident et consequatur officia tempora!
     </div>
 
     <br>
     <br>
 
-    <!-- LISTS -->
-    <ul>
-      <li>Lorem ipsum dolor sit amet.</li>
+    <h3>LISTS</h3>
+    <ul class="list-unstyled">
+      <li>Remove bullets add class list-unstyled to ul tag.</li>
       <li>Lorem ipsum dolor sit amet.</li>
       <li>Lorem ipsum dolor sit amet.</li>
       <li>Lorem ipsum dolor sit amet.</li>
     </ul>
 
-    <!-- INLINE LIST -->
-    <ul>
-      <li>Lorem ipsum</li>
-      <li>Lorem ipsum </li>
-      <li>Lorem ipsum </li>
+    <h3>INLINE LIST/horizontal</h3>
+    <ul class="list-inline">
+      <li class="list-inline-item">Add list-inline to ul tag</li>
+      <li class="list-inline-item">then add list-inline-item to each li tag </li>
+      <li class="list-inline-item">Lorem ipsum </li>
     </ul>
   </div>
 
