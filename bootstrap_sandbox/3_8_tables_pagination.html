@@ -87,8 +87,8 @@
     <div class="container">
         <!--#####################START HERE######################-->
 
-        <!-- TABLE -->
-        <table>
+        <h2>TABLE - basic</h2>
+        <table class="table">
             <thead>
                 <tr>
                     <th>#</th>
@@ -121,8 +121,9 @@
 
         <br>
 
-        <!-- INVERSE/DARK TABLE -->
-        <table>
+        <h2>INVERSE/DARK TABLE</h2>
+        <p>use table table-dark</p>
+        <table class="table table-dark">
             <thead>
                 <tr>
                     <th>#</th>
@@ -155,8 +156,74 @@
 
         <br>
 
-        <!-- TABLE HEAD INVERSE -->
+        <h2>TABLE HEAD INVERSE</h2>
         <table>
+            <thead class="table table-dark">
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <h2>STRIPED TABLE</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>BORDERED TABLE </h3>
+        <table class="table table-bordered">
             <thead>
                 <tr>
                     <th>#</th>
@@ -189,40 +256,8 @@
 
         <br>
 
-        <!-- STRIPED TABLE -->
-        <table>
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Email</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>jdoe@gmail.com</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Will</td>
-                    <td>Johnson</td>
-                    <td>will@yahoo.com</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Shannon</td>
-                    <td>Williams</td>
-                    <td>shannon@yahoo.com</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <!-- BORDERED TABLE -->
-        <table>
+        <h3>BORDERLESS TABLE</h3>
+        <table class="table table-borderless">
             <thead>
                 <tr>
                     <th>#</th>
@@ -255,8 +290,8 @@
 
         <br>
 
-        <!-- BORDERLESS TABLE -->
-        <table>
+        <h3>HOVERABLE. add table table-hover, a bit like a link hover effect, whole row is highlighted.</h3>
+        <table class="table table-hover">
             <thead>
                 <tr>
                     <th>#</th>
@@ -289,8 +324,42 @@
 
         <br>
 
-        <!-- HOVERABLE -->
-        <table>
+        <h3>CONTEXTUAL CLASSES. add different colors to rows using table-success.</h3>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-success">
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <h3>SMALL TABLE.. add table table-sm</h3>
+        <table class="table table-sm">
             <thead>
                 <tr>
                     <th>#</th>
@@ -323,77 +392,9 @@
 
         <br>
 
-        <!-- CONTEXTUAL CLASSES -->
-        <table>
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Email</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>jdoe@gmail.com</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Will</td>
-                    <td>Johnson</td>
-                    <td>will@yahoo.com</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Shannon</td>
-                    <td>Williams</td>
-                    <td>shannon@yahoo.com</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <br>
-
-        <!-- SMALL TABLE -->
-        <table>
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Email</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>jdoe@gmail.com</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Will</td>
-                    <td>Johnson</td>
-                    <td>will@yahoo.com</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Shannon</td>
-                    <td>Williams</td>
-                    <td>shannon@yahoo.com</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <br>
-
-        <!-- RESPONSIVE TABLE - Scrollbars -->
-        <div>
-            <table>
+        <h3>RESPONSIVE TABLE - Scrollbars</h3>
+        <div class="table-responsive">
+            <table class="table">
                 <thead>
                     <tr>
                         <th>#</th>
@@ -428,42 +429,132 @@
         <br>
         <br>
 
-        <!-- PAGINATION -->
+        <h2>PAGINATION</h2>
         <nav>
-            <ul>
-                <li>
-                    <a href="#">Previous</a>
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#">Previous</a>
                 </li>
-                <li>
-                    <a href="#">1</a>
+                <li class="page-item">
+                    <a class="page-link" href="#">1</a>
                 </li>
-                <li>
-                    <a href="#">2</a>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
                 </li>
-                <li>
-                    <a href="#">3</a>
+                <li class="page-item active">
+                    <a class="page-link" href="#">3</a>
                 </li>
-                <li>
-                    <a href="#">Next</a>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
                 </li>
             </ul>
         </nav>
 
-        <!-- PAGINATION CENTERED -->
+        <h3>PAGINATION CENTERED</h3>
+        <nav>
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
 
-
-        <!-- PAGINATION RIGHT -->
-
+        <h3>PAGINATION RIGHT</h3>
+        <nav>
+            <ul class="pagination justify-content-end">
+                <li class="page-item">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
 
         <!-- PAGINATION LARGE -->
-
+        <nav>
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
 
         <!-- PAGINATION SMALL -->
-
+        <nav>
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
 
         <!-- WITH ARROWS -->
 
-
+        <nav>
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
     </div>
     <!-- ./container -->
     <div style="margin-top:500px;"></div>
