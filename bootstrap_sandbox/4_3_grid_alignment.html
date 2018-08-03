@@ -87,11 +87,11 @@
     <div class="container">
         <!--#####################START HERE######################-->
 
-        <!-- VERTICAL ALIGNMENT -->
+        <h3>VERTICAL ALIGNMENT</h3>
         <div class="container">
-            <div class="row" style="height:200px;border:1px #333 solid">
+            <div class="row align-items-start" style="height:200px;border:1px #333 solid">
                 <div class="col">
-                    Top Aligned Text
+                    Top Aligned Text. row align-items-start
                 </div>
                 <div class="col">
                     Top Aligned Text
@@ -100,7 +100,7 @@
                     Top Aligned Text
                 </div>
             </div>
-            <div class="row" style="height:200px;border:1px #333 solid">
+            <div class="row align-items-center" style="height:200px;border:1px #333 solid">
                 <div class="col">
                     Middle Aligned Text
                 </div>
@@ -111,7 +111,7 @@
                     Middle Aligned Text
                 </div>
             </div>
-            <div class="row" style="height:200px;border:1px #333 solid">
+            <div class="row align-items-end" style="height:200px;border:1px #333 solid">
                 <div class="col">
                     Bottom Aligned Text
                 </div>
@@ -127,16 +127,16 @@
         <br>
         <br>
 
-        <!-- VERTICAL ALIGN INDIVIDUAL COLS -->
+        <h3>VERTICAL ALIGN INDIVIDUAL COLS</h3>
         <div class="container">
             <div class="row" style="height:200px;border:1px #333 solid">
-                <div class="col">
+                <div class="col align-self-start">
                     Top Aligned
                 </div>
-                <div class="col">
+                <div class="col align-self-center">
                     Middle Aligned
                 </div>
-                <div class="col">
+                <div class="col align-self-end">
                     Bottom Aligned
                 </div>
             </div>
@@ -145,9 +145,9 @@
         <br>
         <br>
 
-        <!-- HORIZONTAL ALIGNED COLS -->
+        <h3>HORIZONTAL ALIGNED COLS</h3>
         <div class="container">
-            <div class="row" style="height:200px;border:1px #333 solid">
+            <div class="row justify-content-start" style="height:200px;border:1px #333 solid">
                 <div class="col-4">
                     Left Aligned Text
                 </div>
@@ -155,7 +155,7 @@
                     Left Aligned Text
                 </div>
             </div>
-            <div class="row" style="height:200px;border:1px #333 solid">
+            <div class="row justify-content-center" style="height:200px;border:1px #333 solid">
                 <div class="col-4">
                     Center Aligned Text
                 </div>
@@ -163,7 +163,7 @@
                     Center Aligned Text
                 </div>
             </div>
-            <div class="row" style="height:200px;border:1px #333 solid">
+            <div class="row justify-content-end" style="height:200px;border:1px #333 solid">
                 <div class="col-4">
                     Right Aligned Text
                 </div>
@@ -171,7 +171,7 @@
                     Right Aligned Text
                 </div>
             </div>
-            <div class="row" style="height:200px;border:1px #333 solid">
+            <div class="row justify-content-around" style="height:200px;border:1px #333 solid">
                 <div class="col-4">
                     Content Around
                 </div>
@@ -179,7 +179,7 @@
                     Content Around
                 </div>
             </div>
-            <div class="row" style="height:200px;border:1px #333 solid">
+            <div class="row justify-content-between" style="height:200px;border:1px #333 solid">
                 <div class="col-4">
                     Content Between
                 </div>
@@ -192,26 +192,27 @@
         <br>
         <br>
 
-        <!-- COLUMN WRAPPING & NO GUTTERS-->
-        <div class="row">
+        <h3>COLUMN WRAPPING & NO GUTTERS</h3>
+        <p>when your cols don't add upto 12 they wrap.</p>
+        <div class="row no-gutters">
             <div class="col-9">
                 <div class="card">
                     <div class="card-block">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, repudiandae!</p>
+                        <p>col-9. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, repudiandae!</p>
                     </div>
                 </div>
             </div>
             <div class="col-4">
                 <div class="card">
                     <div class="card-block">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, repudiandae!</p>
+                        <p>col-4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, repudiandae!</p>
                     </div>
                 </div>
             </div>
             <div class="col-6">
                 <div class="card">
                     <div class="card-block">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, repudiandae!</p>
+                        <p>col-6 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, repudiandae!</p>
                     </div>
                 </div>
             </div>
